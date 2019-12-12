@@ -27,6 +27,15 @@ p {
   margin: 10px 0;
 }
 
+/* util Classes */
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
 /* Navbar */
 
 #navbar {
@@ -59,7 +68,7 @@ p {
   text-align: center;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
   background: #444;
   color: #f7c08a;
 }
